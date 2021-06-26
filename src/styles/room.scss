@@ -15,6 +15,15 @@
         max-height: 45px;
       }
 
+      >div{
+        display: flex;
+        gap: 16px;
+
+        >button {
+          height: 40px;
+        }
+        
+      }
 
     }
   }
@@ -44,6 +53,13 @@
         font-weight: 500;
         font-size: 14px;
       }
+
+
+      .questions-list {
+        margin-top: 32px;
+
+      }
+
     }
 
     form {
@@ -89,6 +105,7 @@
           color: #737380;
           font-weight: 500;
           font-size: 14px;
+
 
           button {
             background: transparent;

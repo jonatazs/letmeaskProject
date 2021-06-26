@@ -36,6 +36,12 @@ export function Home() {
       return;
     }
 
+    if(roomRef.val().endedAt){
+      alert('Room has been already closed.')
+      return;
+    }
+
+
     history.push(`/rooms/${roomCode}`)
 
   }
